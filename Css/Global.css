@@ -1,0 +1,33 @@
+
+@import url('https://fonts.googleapis.com/css2?family=BBH+Bartle&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+body
+{
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  background: #050505;
+  color: #fff;
+  overflow-x: hidden;
+  
+ 
+   
+}
+
+:root {
+  --bg-dark: #050505;
+  --bg-card: #0f0f0f;
+  --border-dark: #1f1f1f;
+  --purple: #6d28d9;
+  --purple-light: #8b5cf6;
+  --text-main: #ffffff;
+  --text-muted: #bdbdbd;
+}

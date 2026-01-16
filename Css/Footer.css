@@ -1,0 +1,98 @@
+.footer {
+   /* Cristal / vidrio */
+  background: rgba(15, 15, 30, 0.45);
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
+  color: #ccc;
+  padding: 60px 80px;
+  font-family: Arial, sans-serif;
+}
+
+.footer-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 80px;
+}
+
+/* IZQUIERDA */
+.footer-left p {
+  max-width: 320px;
+  font-size: 14px;
+  line-height: 1.6;
+  margin: 20px 0;
+}
+
+/* LOGO FOOTER – MISMO ESTILO QUE HEADER */
+.footer-logo {
+  width: 42px;
+  height: 42px;
+  border-radius: 12px;
+
+  background: linear-gradient(135deg, #6d28d9, #8b5cf6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  box-shadow:
+    0 0 15px rgba(139, 92, 246, 0.6),
+    inset 0 0 6px rgba(255, 255, 255, 0.15);
+}
+
+.footer-logo .logo-icon {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1;
+  cursor: pointer;
+}
+
+/* HOVER PREMIUM */
+.footer-logo:hover .logo-icon {
+  transform: scale(1.08) rotate(3deg);
+  box-shadow:
+    0 0 25px rgba(139, 92, 246, 0.9),
+    inset 0 0 8px rgba(255, 255, 255, 0.2);
+}
+
+
+.footer-social {
+  display: flex;
+  gap: 14px;
+  margin-top: 20px;
+}
+
+.footer-social i {
+  cursor: pointer;
+  font-size: 16px;
+  transition: color 0.3s;
+}
+
+.footer-social i:hover {
+  color: #7c3aed;
+}
+
+/* DERECHA */
+.footer-links {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 60px;
+}
+
+.footer-col h4 {
+  color: #fff;
+  font-size: 14px;
+  margin-bottom: 16px;
+}
+
+.footer-col a {
+  display: block;
+  font-size: 13px;
+  color: #999;
+  text-decoration: none;
+  margin-bottom: 10px;
+  transition: color 0.3s;
+}
+
+.footer-col a:hover {
+  color: #fff;
+}
